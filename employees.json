@@ -1,0 +1,27 @@
+﻿
+[
+    {
+        "id": "NV001",
+        "name": "Nguyen Van An",
+        "email": "admin@gmail.com",
+        "password": "admin123",
+        "position": "Admin",
+        "salary": 15000000
+    },
+    {
+        "id": "NV002",
+        "name": "Tran Thi Binh",
+        "email": "staff@gmail.com",
+        "password": "staff123",
+        "position": "Staff",
+        "salary": 10000000
+    },
+    {
+        "id": "NV003",
+        "name": "Le Van Cuong",
+        "email": "manager@gmail.com",
+        "password": "manager123",
+        "position": "Manager",
+        "salary": 18000000
+    }
+]

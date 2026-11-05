@@ -1,0 +1,27 @@
+﻿
+[
+    {
+        "id": "KH001",
+        "name": "Nguyen Thi Lan",
+        "email": "lan@gmail.com",
+        "password": "customer123",
+        "phone": "0901234567",
+        "address": "TP. Ho Chi Minh"
+    },
+    {
+        "id": "KH002",
+        "name": "Tran Van Minh",
+        "email": "minh@gmail.com",
+        "password": "customer123",
+        "phone": "0912345678",
+        "address": "Binh Duong"
+    },
+    {
+        "id": "KH003",
+        "name": "Le Thi Hoa",
+        "email": "hoa@gmail.com",
+        "password": "customer123",
+        "phone": "0987654321",
+        "address": "Dong Nai"
+    }
+]

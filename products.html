@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cửa hàng trực tuyến</h1>
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            <a href="products.html">Sản phẩm</a>
+            <a href="cart.html">Giỏ hàng</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Danh sách sản phẩm</h2>
+
+        <div class="product-layout">
+            <aside>
+                <h3>Tìm kiếm nâng cao</h3>
+
+                <form id="search-form">
+                    <label for="keyword">Tên sản phẩm:</label>
+                    <input
+                        type="search"
+                        id="keyword"
+                        name="keyword"
+                        placeholder="Nhập tên sản phẩm"
+                    >
+
+                    <label for="min-price">Giá thấp nhất ($):</label>
+                    <input
+                        type="number"
+                        id="min-price"
+                        name="min-price"
+                        min="0"
+                        step="0.01"
+                        placeholder="0"
+                    >
+
+                    <label for="max-price">Giá cao nhất ($):</label>
+                    <input
+                        type="number"
+                        id="max-price"
+                        name="max-price"
+                        min="0"
+                        step="0.01"
+                        placeholder="1000"
+                    >
+
+                    <label for="color">Màu sắc:</label>
+                    <select id="color" name="color">
+                        <option value="">Tất cả màu</option>
+                        <option value="Black">Đen</option>
+                        <option value="White">Trắng</option>
+                        <option value="Blue">Xanh dương</option>
+                    </select>
+
+                    <label for="rating">Đánh giá tối thiểu:</label>
+                    <select id="rating" name="rating">
+                        <option value="">Tất cả đánh giá</option>
+                        <option value="1">Từ 1 sao</option>
+                        <option value="2">Từ 2 sao</option>
+                        <option value="3">Từ 3 sao</option>
+                        <option value="4">Từ 4 sao</option>
+                        <option value="5">5 sao</option>
+                    </select>
+
+                    <label for="category">Danh mục:</label>
+                    <select id="category" name="category">
+                        <option value="">Tất cả danh mục</option>
+                        <option value="men's clothing">Thời trang nam</option>
+                        <option value="women's clothing">Thời trang nữ</option>
+                        <option value="jewelery">Trang sức</option>
+                        <option value="electronics">Điện tử</option>
+                    </select>
+
+                    <button type="submit">Tìm kiếm</button>
+                    <button type="reset">Xóa bộ lọc</button>
+                </form>
+            </aside>
+
+            <section>
+                <h3>Sản phẩm</h3>
+
+                <section id="product-list">
+                    <p>Đang tải sản phẩm...</p>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Họ tên: Võ Tường Vy - MSSV: K244161825</p>
+    </footer>
+
+    <script src="js/reviews.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

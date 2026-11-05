@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reviews>
+    <review id="RV001">
+        <product_id>1</product_id>
+        <customer_id>KH001</customer_id>
+        <customer_name>Nguyen Thi Lan</customer_name>
+        <rating>5</rating>
+        <comment>San pham rat dep va chat luong.</comment>
+        <date>2026-11-01</date>
+    </review>
+
+    <review id="RV002">
+        <product_id>1</product_id>
+        <customer_id>KH002</customer_id>
+        <customer_name>Tran Van Minh</customer_name>
+        <rating>4</rating>
+        <comment>Chat luong tot, dong goi can than.</comment>
+        <date>2026-11-02</date>
+    </review>
+
+    <review id="RV003">
+        <product_id>2</product_id>
+        <customer_id>KH003</customer_id>
+        <customer_name>Le Thi Hoa</customer_name>
+        <rating>5</rating>
+        <comment>San pham dep, dung nhu mo ta.</comment>
+        <date>2026-11-03</date>
+    </review>
+
+    <review id="RV004">
+        <product_id>2</product_id>
+        <customer_id>KH001</customer_id>
+        <customer_name>Nguyen Thi Lan</customer_name>
+        <rating>3</rating>
+        <comment>San pham tam on.</comment>
+        <date>2026-11-04</date>
+    </review>
+
+    <review id="RV005">
+        <product_id>3</product_id>
+        <customer_id>KH002</customer_id>
+        <customer_name>Tran Van Minh</customer_name>
+        <rating>4</rating>
+        <comment>Ao dep, vai kha tot.</comment>
+        <date>2026-11-05</date>
+    </review>
+
+    <review id="RV006">
+        <product_id>3</product_id>
+        <customer_id>KH003</customer_id>
+        <customer_name>Le Thi Hoa</customer_name>
+        <rating>5</rating>
+        <comment>Rat hai long voi san pham.</comment>
+        <date>2026-11-05</date>
+    </review>
+</Reviews>
